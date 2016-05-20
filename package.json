@@ -1,0 +1,23 @@
+{
+  "name": "font-end-engineering-third",
+  "version": "1.0.0",
+  "description": "third training",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilongllong/font-end-engineering-third.git"
+  },
+  "author": "lilonglong <lilongllong@github.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lilongllong/font-end-engineering-third/issues"
+  },
+  "homepage": "https://github.com/lilongllong/font-end-engineering-third#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
