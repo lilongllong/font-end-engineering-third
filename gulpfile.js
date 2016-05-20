@@ -16,7 +16,7 @@ const SRC_PATH = "./src";
 gulp.task("default",[ "build" ]);
 
 gulp.task("clean", () => {
-    return gulp.src(DEST_PATH)
+    return gulp.src([DEST_PATH, `${SRC_PATH}/**/*.json`])
     .pipe(rimraf());
 });
 
